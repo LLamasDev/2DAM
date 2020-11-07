@@ -1,0 +1,6 @@
+<div class="padre">
+    <button type="button" class="btn" (click) = "muestro()">Mostrar/Ocultar</button>
+</div>
+<div *ngFor="let i of arrayNumeros" [ngClass] = "{muestroCSS: ocultamos, ocultoCSS: ocultamos}">
+    <app-hijo></app-hijo>
+</div>

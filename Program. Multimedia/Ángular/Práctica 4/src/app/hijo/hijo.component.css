@@ -1,0 +1,28 @@
+.hijo {
+    border-style: solid;
+    border-color: black;
+    border-radius: 8px;
+    margin: 20px 20px 20px 20px;
+    padding: 20px 20px 20px 20px;
+}
+
+.btn {
+    border-radius: 8px;
+    color: coral;
+    padding: 10px 10px;
+    margin-left: 35px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+}
+
+.seleccionoRojo {
+    background-color: rgb(255, 174, 0);
+    color: red;
+}
+
+.seleccionoVerde {
+    background-color: rgb(210, 255, 47);
+    color: green;
+}

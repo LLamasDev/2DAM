@@ -1,0 +1,11 @@
+<div [ngClass] = "{seleccionoRojo: esRojo, seleccionoVerde: esVerde}" class = "hijo">
+    <table>
+        <tr>
+          <td rowspan = "2"><p>Texto</p></td>
+          <td><button type = "button" class = "btn" id = "rojo" (click) = "pulsarBoton($event)">Rojo</button></td>
+        </tr>
+        <tr>
+          <td><button type = "button" class = "btn" id = "verde" (click) = "pulsarBoton($event)">verde</button></td>
+        </tr>
+    </table>
+</div>
