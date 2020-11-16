@@ -1,0 +1,23 @@
+.web {
+    max-width: 370px;
+    margin: auto;
+    text-align: center;
+}
+
+.tablero {
+    background-color: royalblue;
+}
+
+.blanco {
+    background-color: white;
+    width: 20px;
+    height: 20px;
+    padding: 20px;
+    margin: 4px 2px;
+    border-radius: 25px;
+}
+
+.resultado {
+    font-size: 20px;
+    padding: 20px;
+}
