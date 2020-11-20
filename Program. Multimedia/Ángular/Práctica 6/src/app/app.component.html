@@ -1,0 +1,9 @@
+<form [formGroup]="this.formHTML">
+    <label for="orders">Categoría: </label>
+    <select formControlName="orders" (change)="pulsoCategoria($event)">
+        <option *ngFor="let order of categoria;" [value]="order">
+            {{order}}
+        </option>
+    </select>
+</form>
+<app-component [chiste]="chiste"></app-component>
