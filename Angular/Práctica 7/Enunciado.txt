@@ -1,0 +1,5 @@
+Se trata de que rehagáis el tutorial introduciendo las dos novedades siguientes:
+
+1- El formulario se debe validar. Los dos campos deben ser obligatorios y tener al menos 6 caracteres. Si no se cumple, se marcará ese campo con un borde rojo y se mostrará al usuario un mensaje de error.
+
+2- Se debe crear un servicio que proteja el array de bromas. Podréis inyectarlo en los componentes que consideréis oportunos. De esta manera, ya no hará falta utilizar inputs o outputs para comunicar a los componentes de la aplicación.

@@ -1,0 +1,16 @@
+<form [formGroup]="loginForm" class="card card-block">
+    <h4 class="card-title">Create Joke</h4>
+    <div class="form-group">
+        <input type="text" class="form-control" formControlName="setup" placeholder="Enter the setup" #setup>
+        <div *ngIf="this.loginForm.controls.setup.errors?.required" class="error">Setup es obligatorio, ponlo!!</div>
+        <div *ngIf="this.loginForm.controls.setup.errors?.minlength" class="error">Tiene que tener 6 caractes, al menos</div>
+    </div>
+    <div class="form-group">
+        <input type="text" class="form-control" formControlName="punchline" placeholder="Enter the punchline" #punchline>
+        <div *ngIf="this.loginForm.controls.punchline.errors?.required" class="error">Punchline es obligatorio, ponlo!!</div>
+        <div *ngIf="this.loginForm.controls.punchline.errors?.minlength" class="error">Tiene que tener 6 caractes, al menos</div>
+    </div>
+    <div *ngIf="this.loginForm.controls.setup.valid && this.loginForm.controls.punchline.valid">
+        <button type="button" class="btn btn-primary" (click)="createJoke(setup.value, punchline.value)">Create</button>
+    </div>
+</form>

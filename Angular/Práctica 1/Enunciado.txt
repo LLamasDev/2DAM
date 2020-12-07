@@ -1,0 +1,4 @@
+Tenéis que realizar el tutorial de introducción (listado de la página 75).
+Enviádmelo de dos formas:
+- Un enlace al proyecto completo en GitHub
+- Un archivo comprimido con la carpeta src de vuestro proyecto (por favor, no incluyáis las librerías de Angular).

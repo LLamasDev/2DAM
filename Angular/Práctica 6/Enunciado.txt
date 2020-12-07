@@ -1,0 +1,10 @@
+Imitando los ejemplos dados en clase crea la siguiente aplicación Angular (tendrás que acceder a la API de chistes de Chuck Norris -https://api.chucknorris.io/ para resolverla):
+
+- Crea un pequeño formulario donde puedas seleccionar en forma de lista desplegable la categoría del chiste que quieres descargar.
+- Al pulsar el botón del formulario se enviará la petición y se mostrará el chiste debajo del formulario (en el mismo componente).
+
+Pistas: 
+
+- Puedes escribir los nombres de las categorías a mano, pero lo ideal sería obtener del servidor el array con todas las categorías disponibles. ¿Cuál es la forma ideal en Ángular de mostrar ese array en la lista desplegable del formulario?
+
+- Piensa también la solución ideal en Ángular para mostrar en el template del componente el chiste recibido.

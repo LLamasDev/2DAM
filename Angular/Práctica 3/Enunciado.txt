@@ -1,0 +1,6 @@
+Realiza el ejercicio planteado en clase.
+
+- Un componente padre contiene un componente hijo vacío.
+
+Versión 1: El padre tiene un único botón. Al pulsarlo el fondo del hijo se pone rojo.
+Versión 2: El padre tiene tres botones: rojo, verde y azul. Al pulsarlos, el fondo del hijo cambia el color.

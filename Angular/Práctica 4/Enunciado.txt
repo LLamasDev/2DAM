@@ -1,0 +1,4 @@
+Tenéis que hacer una pequeña aplicación angular siguiendo el esquema que os adjunto.
+
+- El componente padre tiene un botón Mostar/Ocultar. NO se comunica con sus hijos.
+- Los hijos serán 100 y consisten en un texto (siempre el mismo en todos ellos) y dos botones que permiten cambiar el color del texto. Los hijos tampoco se comunican con su padre.

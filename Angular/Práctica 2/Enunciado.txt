@@ -1,0 +1,1 @@
+Tal y como se ha explicado en clase, debéis añadir al tutorial la posibilidad de borrar las bromas creadas. Recuerda que debe hacerse tanto en la vista como en el modelo de datos (el array).

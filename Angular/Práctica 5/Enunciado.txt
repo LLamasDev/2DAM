@@ -1,0 +1,1 @@
+Realiza una directiva personalizada aplicable a las imágenes de un template. Cuando se pasa el ratón por la imagen, ésta se modifica (se muestra otra) y se pone un borde verde a su alrededor. Cuando el ratón sale de la imagen se recupera la foto original y desaparece el borde.
