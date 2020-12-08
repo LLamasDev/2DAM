@@ -1,0 +1,9 @@
+Debes realizar una pequeña aplicación Ángular que permita gestionar un blog de noticias. La aplicación debe seguir la arquitectura de componentes explicada en clase y que se recuerda en la imagen adjunta.
+
+El propósito de esta práctica es sintetizar en un ejercicio todas las ideas vistas en clase, por lo que la aplicación debe cumplir los siguientes requisitos:
+
+- El seleccionador de estilos sirve para aplicar un estilo visual determinado a la aplicación. Siempre estará visible.
+- El formulario de login debe asegurarse de que los dos campos están rellenos y de que la contraseña al menos tiene 8 caracteres. En caso de no cumplirse estas condiciones se avisará visualmente al usuario.
+- Si el formulario de logueo valida, se producirá un cambio de página donde se mostrará un formulario que permite introducir nuevas noticias en el blog y, debajo de este formulario, un listado con todas las entradas que hay actualmente en el blog. Estas entradas tendrán un botón para eliminarlas.
+- Como no tenemos aún Back-End, las entradas del blog se guardarán utilizando un servicio Angular para envolver el modelo de datos y poder compartirlo fácilmente.
+- Por último: tendremos definida una clase para establecer los campos de las entradas del blog. Cada entrada debe tener al menos un título, un contenido y una fecha de creación. Cuando se visualicen estos datos, siempre se debe ver el título en mayúsculas, independientemente de cómo haya sido inicialmente almacenado. 

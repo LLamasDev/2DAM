@@ -1,0 +1,16 @@
+<form [formGroup]="loginForm" class="card">
+    <h4 class="card-title">Crear entrada</h4>
+    <div class="form-group">
+        <input type="text" class="form-control" formControlName="formTitulo" placeholder="Di el titulo" #formTitulo>
+        <div *ngIf="this.loginForm.controls.formTitulo.errors?.required" class="error">El titulo es obligatorio</div>
+    </div>
+    <div class="form-group">
+        <input type="text" class="form-control" formControlName="formContenido" placeholder="Contenido" #formContenido>
+        <div *ngIf="this.loginForm.controls.formContenido.errors?.required" class="error">El contenido es obligatorio</div>
+    </div>
+    <div *ngIf="this.loginForm.controls.formTitulo.valid && this.loginForm.controls.formContenido.valid">
+        <button type="button" class="btn" (click)="nuevaEntradaBlog(formTitulo.value, formContenido.value)">Guardar</button>
+    </div>
+</form>
+
+<app-post *ngFor="let j of entradas" [post]="j"></app-post>

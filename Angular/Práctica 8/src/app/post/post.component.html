@@ -1,0 +1,5 @@
+<div class="card">
+    <p>Título: {{post.titulo | lowercase}}, fecha: {{post.fecha}}.</p>
+    <p>{{post.contenido}}</p>
+    <a (click)=borrar() class="btn">Borrar</a>
+</div>
